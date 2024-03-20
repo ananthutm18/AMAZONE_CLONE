@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazone</title>
+        <link rel="icon" href="data:image/png;base64,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">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="mainnav">
+        <div class="navbar">
+            <div class="nav-logo border">
+                
+            </div>
+            <div class="nav-loaction border">
+                <p class="addressdetails">Delivering to Kochi 682030</p>
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="mainloc">Update location</p>
+                </div>
+            </div>
+
+            <div class="navsearch">
+                <select class="seach-drop">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazone.in" class="search-text">
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="signin border ">
+                <p class="sihninwish">Hello,sign in</p>
+                <p class="accountdetails">Account & Lists</p>
+            </div>
+
+            <div class="signin border ">
+                <p class="sihninwish">Returns</p>
+                <p class="accountdetails">& Orders</p>
+            </div>
+            <div class="navcart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+
+        </div>
+
+        <div class="panel">
+
+            <div class="panel1">
+                <i class="fa-solid fa-bars"></i>
+                All</div>
+                <div class="panel2">
+
+                    <p>Fresh</p>
+                    <p>Amazon miniTV</p>
+                    <p>Sell</p>
+                    <p>Best Sellers</p>
+                    <p>Today's Deals</p>
+                    <p>Electronics</p>
+                    <p>Prime</p>
+                    <p>New Releases</p>
+                    <p>Home & Kitchen</p>
+
+                    </div>
+                    <div class="latestlaunch">
+
+
+                        New Launches from Mobile, Electronics & more
+                    </div>
+                   
+            
+
+            
+        </div>
+
+    </div>
+
+    <div class="mainsection">
+
+    </div>
+    <div class="content">
+        <div class="box1 box">
+            <div class="boxcontent">
+            <h1>Women Clothing | Up to 55% off    </h1>
+            <div class="box-iamge1 box-image">
+                
+            </div>
+            <p>See more</p>
+        </div>
+        </div>
+
+
+        <div class="box2 box">
+            <div class="boxcontent">
+            <h1>   Luxury Furniture | Up to 80% off</h1>
+            <div class="box-iamge2 box-image">
+                
+            </div>
+            <p>See more</p>
+        </div>
+        </div>
+
+
+        <div class="box3 box">
+            <div class="boxcontent">
+            <h1>Garden Lights | Up to 45% off</h1>
+            <div class="box-iamge3 box-image">
+                
+            </div>
+            <p>See more</p>
+        </div>
+        </div>
+
+
+        <div class="box4 box">
+            <div class="boxcontent">
+            <h1>Sports Gears | Up to 55% off</h1>
+            <div class="box-iamge4 box-image">
+                
+            </div>
+            <p>See more</p>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="box1 box">
+            <div class="boxcontent">
+            <h1>Appliances for your home | Up to 55% off</h1>
+            <div class="box-iamge5 box-image">
+                
+            </div>
+            <p>See more</p>
+        </div>
+        </div>
+
+
+        <div class="box2 box">
+            <div class="boxcontent">
+            <h1>Appliances for your home | Up to 55% off</h1>
+            <div class="box-iamge6 box-image">
+                
+            </div>
+            <p>See more</p>
+        </div>
+        </div>
+
+
+        <div class="box3 box">
+            <div class="boxcontent">
+            <h1>Appliances for your home | Up to 55% off</h1>
+            <div class="box-iamge7 box-image">
+                
+            </div>
+            <p>See more</p>
+        </div>
+        </div>
+
+
+        <div class="box4 box">
+            <div class="boxcontent">
+            <h1>Appliances for your home | Up to 55% off</h1>
+            <div class="box-iamge8 box-image">
+                
+            </div>
+            <p>See more</p>
+        </div>
+        </div>
+    
+       
+
+    </div>
+
+<footer class="foot">
+
+    <div class="footseg1">
+        Back to Top
+    </div>
+
+    <div class="footseg2">
+        <ul>
+            <p> Get to Know Us</p>
+            <a>About Us</a>
+            <a>Careers</a>
+            <a>Press Releases</a>
+            <a>Amazon Science</a>
+        </ul>
+
+
+
+        <ul>
+            <p> Get to Know Us</p>
+            <a>About Us</a>
+            <a>Careers</a>
+            <a>Press Releases</a>
+            <a>Amazon Science</a>
+        </ul>
+
+
+        <ul>
+            <p> Get to Know Us</p>
+            <a>About Us</a>
+            <a>Careers</a>
+            <a>Press Releases</a>
+            <a>Amazon Science</a>
+        </ul>
+
+
+        <ul>
+            <p> Get to Know Us</p>
+            <a>About Us</a>
+            <a>Careers</a>
+            <a>Press Releases</a>
+            <a>Amazon Science</a>
+        </ul>
+    </div>
+
+
+        <div class="footseg3">
+            <div class="logo"></div>
+
+            </div>
+
+
+            <div class="footseg4">
+
+                <div class="lastlist">
+                    <ul>
+                        <p class="mainp">AbeBooks</p>
+                        <p>Books, art</p>
+                        <p>bjsdjsds</p>
+                        <p>& collectibles</p>
+                    </ul>
+                    <ul>
+                        <p class="mainp">AbeBooks</p>
+                        <p>Books, art</p>
+                        <p>bjsdjsds</p>
+                        <p>& collectibles</p>
+                    </ul>
+                    <ul>
+                        <p class="mainp">AbeBooks</p>
+                        <p>Books, art</p>
+                        <p>bjsdjsds</p>
+                        <p>& collectibles</p>
+                    </ul>
+                    <ul>
+                        <p class="mainp">AbeBooks</p>
+                        <p>Books, art</p>
+                        <p>bjsdjsds</p>
+                        <p>& collectibles</p>
+                    </ul>
+
+
+                    </div>
+                     <div class="lastlist">
+                    <ul>
+                        <p class="mainp">AbeBooks</p>
+                        <p>Books, art</p>
+                        <p>bjsdjsds</p>
+                        <p>& collectibles</p>
+                    </ul>
+                    <ul>
+                        <p class="mainp">AbeBooks</p>
+                        <p>Books, art</p>
+                        <p>bjsdjsds</p>
+                        <p>& collectibles</p>
+                    </ul>
+                    <ul>
+                        <p class="mainp">AbeBooks</p>
+                        <p>Books, art</p>
+                        <p>bjsdjsds</p>
+                        <p>& collectibles</p>
+                    </ul>
+                    <ul>
+                        <p class="mainp">AbeBooks</p>
+                        <p>Books, art</p>
+                        <p>bjsdjsds</p>
+                        <p>& collectibles</p>
+                    </ul>
+
+
+                    </div>
+
+                <div class="lastsess">
+                    <p>Conditions of Use & Sale
+                     Privacy Notice
+                    Interest-Based Ads</p>
+                    <p class="copy">
+                        © 1996-2024, Amazon.com, Inc. or its affiliates
+                    </p>
+                </div>
+               
+
+
+            </div>
+
+</footer>
+
+    
+    
+</body>
+</html>
